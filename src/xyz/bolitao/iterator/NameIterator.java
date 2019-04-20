@@ -1,5 +1,8 @@
 package xyz.bolitao.iterator;
 
+/**
+ * @author Boli Tao
+ */
 public class NameIterator implements Iterator {
     String[] names;
     int index = 0;
@@ -7,6 +10,7 @@ public class NameIterator implements Iterator {
     public NameIterator(String[] names) {
         this.names = names;
     }
+
 
     @Override
     public boolean hasNext() {
